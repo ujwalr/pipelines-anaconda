@@ -8,6 +8,9 @@ jobs:
     matrix:
       Python36:
         python.version: '3.6'
+  
+  variables:
+    EnableDetectorConda : True
 
   steps:
   - powershell: Write-Host "##vso[task.prependpath]$env:CONDA\Scripts"
