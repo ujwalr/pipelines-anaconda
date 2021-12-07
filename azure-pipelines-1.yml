@@ -1,0 +1,9 @@
+jobs:
+
+- job:
+  displayName: Conda package detection
+  pool:
+    vmImage: 'windows-latest'
+
+  variables:
+    EnableDetectorConda : True
