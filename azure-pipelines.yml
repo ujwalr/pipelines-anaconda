@@ -9,12 +9,15 @@ jobs:
     EnableDetectorConda : True
 
   steps:
+  - powershell: echo "$PATH"
+    displayName: Show Path
+
   - powershell: Write-Host "##vso[task.prependpath]$env:CONDA\Scripts"
     displayName: Add conda to PATH
 
   - powershell: Write-Host "##vso[task.prependpath]$env:CONDA\bin"
     displayName: Add conda to PATH
   
-  - bash: echo "$PATH"
+  - powershell: echo "$PATH"
     displayName: Show Path
 
