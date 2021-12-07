@@ -16,5 +16,5 @@ jobs:
     displayName: Add conda to PATH
   
   - bash: echo "$PATH"
-  - displayName: Show Path
+    displayName: Show Path
 
