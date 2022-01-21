@@ -9,17 +9,17 @@ jobs:
     EnableDetectorConda : True
 
   steps:
-  - bash: echo "$PATH"
-    displayName: Show Path
+  # - bash: echo "$PATH"
+  #   displayName: Show Path
 
-  - powershell: Write-Host "##vso[task.prependpath]$env:CONDA\Scripts"
-    displayName: Add conda to PATH
+  # - powershell: Write-Host "##vso[task.prependpath]$env:CONDA\Scripts"
+  #   displayName: Add conda to PATH
 
-  - powershell: Write-Host "##vso[task.prependpath]$env:CONDA\bin"
-    displayName: Add conda to PATH
+  # - powershell: Write-Host "##vso[task.prependpath]$env:CONDA\bin"
+  #   displayName: Add conda to PATH
 
-  - bash: echo "$PATH"
-    displayName: Show Path  
+  # - bash: echo "$PATH"
+  #   displayName: Show Path  
   - task: cgcdazdowrapperppe@0
     inputs:
       scanType: 'Register'
