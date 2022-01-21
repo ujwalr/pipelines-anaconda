@@ -17,15 +17,15 @@ jobs:
 
   - powershell: Write-Host "##vso[task.prependpath]$env:CONDA\bin"
     displayName: Add conda to PATH
-  
+
+  - bash: echo "$PATH"
+    displayName: Show Path  
   - task: ComponentGovernanceComponentDetectionPpe@0
     inputs:
       scanType: 'Register'
       verbosity: 'Verbose'
-      detectorsFilter: 'Conda'
       alertWarningLevel: 'High'
 
-  - bash: echo "$PATH"
-    displayName: Show Path
+
   
 
