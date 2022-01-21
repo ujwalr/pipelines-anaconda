@@ -20,7 +20,7 @@ jobs:
 
   - bash: echo "$PATH"
     displayName: Show Path  
-  - task: ComponentGovernanceComponentDetectionPpe@0
+  - task: cgcdazdowrapperppe@0
     inputs:
       scanType: 'Register'
       verbosity: 'Verbose'
