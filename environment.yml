@@ -6,4 +6,4 @@ dependencies:
 - numpy
 - pytorch # unused
 - pytest
-
+- pillow=8.3.1
