@@ -21,3 +21,10 @@ jobs:
   - bash: echo "$PATH"
     displayName: Show Path
 
+  - task: cgcdazdowrapperppe@0
+    inputs:
+      scanType: 'Register'
+      verbosity: 'Verbose'
+      detectorsFilter: 'Conda'
+      alertWarningLevel: 'High'
+
