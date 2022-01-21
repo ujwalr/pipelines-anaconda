@@ -3,8 +3,8 @@ channels:
 - pytorch
 dependencies:
 - python=3.6
-- numpy #=1.19.0
+- numpy#=1.18.5=py36h6530119_0
 - pytorch # unused
 - pytest
-- pillow=8.3.1=py37h8ec01a1_0
+- pillow=8.3.1=py36h8ec01a1_0
 
