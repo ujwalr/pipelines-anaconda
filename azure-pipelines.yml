@@ -24,6 +24,7 @@ jobs:
     inputs:
       scanType: 'Register'
       verbosity: 'Verbose'
+      detectorsFilter: 'Conda' 
       alertWarningLevel: 'High'
 
 
