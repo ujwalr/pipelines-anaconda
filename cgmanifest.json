@@ -1,0 +1,220 @@
+{
+    "Registrations": [
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "curl",
+                    "Version": "7.58.0-2ubuntu3.13",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "git",
+                    "Version": "1:2.17.1-1ubuntu0.8",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "autoconf",
+                    "Version": "2.69-11",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "automake",
+                    "Version": "1:1.15.1-3ubuntu2",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "libtool",
+                    "Version": "2.4.6-2",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "cmake",
+                    "Version": "3.10.2-1ubuntu2.18.04.1",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "make",
+                    "Version": "4.1-9.1ubuntu1",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "g++",
+                    "Version": "4:7.4.0-1ubuntu2.3",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "unzip",
+                    "Version": "6.0-21ubuntu1.1",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "build-essential",
+                    "Version": "12.4ubuntu1",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "cpio",
+                    "Version": "2.12+dfsg-6ubuntu0.18.04.1",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "libboost-system-dev",
+                    "Version": "1.65.1.0ubuntu1",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "libprotobuf10",
+                    "Version": "3.0.0-9.1ubuntu1",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "protobuf-compiler",
+                    "Version": "3.0.0-9.1ubuntu1",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "openssl",
+                    "Version": "1.1.1-1ubuntu2.1~18.04.9",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "libssl-dev",
+                    "Version": "1.1.1-1ubuntu2.1~18.04.9",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "libgoogle-perftools-dev",
+                    "Version": "2.5-2.2ubuntu3",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+        {
+            "Component": {
+                "Type": "linux",
+                "Linux": {
+                    "Name": "intel-mkl-64bit-2020.0-088",
+                    "Version": "2020.0-088",
+                    "Distribution": "Ubuntu",
+                    "Release": "18.04"
+                },
+                "DevelopmentDependency" : false
+            }
+        }
+    ]
+}
