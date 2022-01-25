@@ -1,5 +1,31 @@
 {
     "Registrations": [
+	{
+            "Component": {
+                "Type": "conda",
+                "Conda": {
+                    "Name": "7za",
+                    "Version": "920",
+                    "Channel": "defaults",
+                    "SubDir": "win-64",
+					"Build":"haa95532_0"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
+		{
+            "Component": {
+                "Type": "conda",
+                "Conda": {
+                    "Name": "7zip",
+                    "Version": "19.00",
+                    "Channel": "defaults",
+                    "SubDir": "win-64",
+					"Build":"h59b6b97_2"
+                },
+                "DevelopmentDependency" : false
+            }
+        },
         {
             "Component": {
                 "Type": "linux",
