@@ -1,9 +1,0 @@
-name: canary-pipelines
-
-dependencies:
-
-- pip
-- python=3.8
-- pip:
-  - -e .[dev]
-

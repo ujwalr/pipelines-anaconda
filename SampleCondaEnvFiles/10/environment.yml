@@ -1,9 +1,0 @@
-name: env-from-yaml
-channels:
-- pytorch
-dependencies:
-- python=3.6
-- numpy=1.18.5=py36h6530119_0
-- pytorch # unused
-- pytest
-- chardet=4.0.0 
